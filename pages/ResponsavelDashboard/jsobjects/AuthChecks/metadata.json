@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "673641b0d277b70972705e64_1da1d15c-d6de-4542-8426-8e7a47578e22",
+  "id": "ResponsavelDashboard_AuthChecks",
+  "unpublishedCollection": {
+    "name": "AuthChecks",
+    "pageId": "ResponsavelDashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,3 @@
+ALTER TABLE public.users
+ADD CONSTRAINT fk_school
+FOREIGN KEY (school_id) REFERENCES public.schools (id);

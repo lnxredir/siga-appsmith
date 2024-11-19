@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "673641b0d277b70972705e64_de14b6a1-0254-4d21-9985-b323e200caa6",
+  "id": "DiretoriaDashboard_AuthChecks",
+  "unpublishedCollection": {
+    "name": "AuthChecks",
+    "pageId": "DiretoriaDashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

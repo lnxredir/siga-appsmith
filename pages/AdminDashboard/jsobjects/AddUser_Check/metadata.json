@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "673641b0d277b70972705e64_fdcd74b8-979c-47df-8f46-0fe7ffa93f44",
+  "id": "AdminDashboard_AddUser_Check",
+  "unpublishedCollection": {
+    "name": "AddUser_Check",
+    "pageId": "AdminDashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

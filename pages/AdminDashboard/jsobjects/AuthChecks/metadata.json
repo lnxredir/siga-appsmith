@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "673641b0d277b70972705e64_aa3518b4-344d-4b62-9875-2402d9ebe8eb",
+  "id": "AdminDashboard_AuthChecks",
+  "unpublishedCollection": {
+    "name": "AuthChecks",
+    "pageId": "AdminDashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

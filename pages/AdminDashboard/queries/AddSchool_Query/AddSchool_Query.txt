@@ -1,0 +1,5 @@
+INSERT INTO schools (name, address)
+VALUES ({{InputSchoolName.text}}, {{InputSchoolAddress.text}})
+ON CONFLICT (name) 
+DO NOTHING
+RETURNING id, name;

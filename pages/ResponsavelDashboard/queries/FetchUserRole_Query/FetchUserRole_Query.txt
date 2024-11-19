@@ -1,0 +1,3 @@
+SELECT role 
+FROM users 
+WHERE username = '{{ appsmith.store.user.username }}';

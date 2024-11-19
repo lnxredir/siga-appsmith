@@ -1,0 +1,57 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 61,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "x3cn4tr8vt",
+  "leftColumn": 22,
+  "minWidth": 120,
+  "mobileBottomRow": 54,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 38,
+  "mobileTopRow": 50,
+  "needsErrorInfo": false,
+  "onClick": "{{Login_Query.run()\n  .then(response => {\n    if (response && response.length > 0) {\n      const user = response[0];\n\n      // Check if the user is an admin\n      if (user.role === \"admin\") {\n        storeValue(\"user\", user);\n        showAlert(\"Login successful!\", \"success\");\n        navigateTo(\"AdminDashboard\");\n      } else if (user.school_id) {\n        // Handle non-admin users who must have a school\n        storeValue(\"user\", user);\n        showAlert(\"Login successful!\", \"success\");\n        navigateTo(\"SelectSchoolPage\");\n      } else {\n        // Handle error if a non-admin user doesn't have a school\n        showAlert(\"This user does not have a school assigned. Please contact support.\", \"error\");\n      }\n    } else {\n      // Invalid username or password\n      showAlert(\"Invalid username or password. Please try again.\", \"error\");\n    }\n  })\n  .catch(error => {\n    showAlert(\"Error: \" + error.message, \"error\");\n  });\n}}",
+  "originalBottomRow": 61,
+  "originalTopRow": 57,
+  "parentColumnSpace": 20.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 38,
+  "text": "Entrar",
+  "topRow": 57,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "k4nz6n6o3v",
+  "widgetName": "Login_Button"
+}

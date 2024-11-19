@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "673641b0d277b70972705e64_2950d06f-b7d6-4348-9d7d-ef6fe1d87411",
+  "id": "ProfessorDashboard_AuthChecks",
+  "unpublishedCollection": {
+    "name": "AuthChecks",
+    "pageId": "ProfessorDashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

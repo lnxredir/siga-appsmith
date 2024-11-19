@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "673641b0d277b70972705e64_d862741d-6345-48bb-bd5a-8f26f80c5333",
+  "id": "AssistenteDashboard_AuthChecks",
+  "unpublishedCollection": {
+    "name": "AuthChecks",
+    "pageId": "AssistenteDashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

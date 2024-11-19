@@ -1,0 +1,1 @@
+SELECT id, class_name FROM classes WHERE school_id = {{appsmith.store.user.school_id}} ORDER BY class_name;

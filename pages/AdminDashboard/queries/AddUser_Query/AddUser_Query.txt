@@ -1,0 +1,17 @@
+-- Step 1: Insert the user into the users table
+WITH new_user AS (
+    INSERT INTO users (username, password_hash, role, first_name, last_name, full_name, school_id)
+    VALUES (
+        LOWER(CONCAT('{{InputFirstName.text}}', '.', '{{InputLastName.text}}')),  -- Generate username from First and Last Name
+        crypt('{{InputPassword.text}}', gen_salt('bf')),  -- Encrypt the password
+        '{{DropdownUserRole.selectedOptionValue}}',  -- Role from the role dropdown
+        '{{InputFirstName.text}}',  -- First Name
+        '{{InputLastName.text}}',   -- Last Name
+        CONCAT('{{InputFirstName.text}}', ' ', '{{InputLastName.text}}'),  -- Full Name
+        '{{DropdownSchool.value}}' -- Associate the user with the selected school
+    )
+    RETURNING id  -- Return the ID of the newly created user
+)
+
+-- Step 2: Return success confirmation
+SELECT id AS new_user_id FROM new_user;

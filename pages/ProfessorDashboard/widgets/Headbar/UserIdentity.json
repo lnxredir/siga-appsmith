@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 9,
+  "bottomRow": 4,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -21,7 +21,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "c35uyyp4f4",
-  "leftColumn": 44,
+  "leftColumn": 38,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -34,19 +34,19 @@
   "originalTopRow": 41,
   "overflow": "NONE",
   "parentColumnSpace": 18.0625,
-  "parentId": "wusu79raty",
+  "parentId": "ru7om9nbyf",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 58,
   "shouldTruncate": false,
   "text": "Olá {FirstName}",
   "textAlign": "RIGHT",
   "textColor": "#231F20",
-  "topRow": 5,
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "61lyakuxu1",
+  "widgetId": "vdi9f6nudm",
   "widgetName": "UserIdentity"
 }

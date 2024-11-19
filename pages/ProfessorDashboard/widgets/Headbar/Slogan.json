@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 9,
+  "bottomRow": 8,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -21,7 +21,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "c35uyyp4f4",
-  "leftColumn": 7,
+  "leftColumn": 3,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -30,24 +30,24 @@
   "mobileRightColumn": 24,
   "mobileTopRow": 3,
   "needsErrorInfo": false,
-  "originalBottomRow": 9,
-  "originalTopRow": 1,
+  "originalBottomRow": 8,
+  "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 17.75,
-  "parentId": "wusu79raty",
+  "parentId": "ru7om9nbyf",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 31,
+  "rightColumn": 27,
   "shouldScrollContents": true,
   "shouldTruncate": false,
   "text": "SIGA - Sistema Integrado de Gestão de Alunos",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 1,
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "1mwvbwpvwm",
+  "widgetId": "uw8lnph2fa",
   "widgetName": "Slogan"
 }

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 9,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,43 +11,42 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1rem",
+  "fontSize": "1.25rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
   "key": "c35uyyp4f4",
-  "leftColumn": 1,
+  "leftColumn": 44,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 5,
-  "mobileLeftColumn": 1,
-  "mobileRightColumn": 17,
-  "mobileTopRow": 1,
+  "mobileBottomRow": 45,
+  "mobileLeftColumn": 9,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 41,
   "needsErrorInfo": false,
+  "originalBottomRow": 45,
+  "originalTopRow": 41,
   "overflow": "NONE",
-  "parentColumnSpace": 20.5625,
-  "parentId": "0",
+  "parentColumnSpace": 18.0625,
+  "parentId": "6c2xe5w2qa",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 17,
+  "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "{{ appsmith.store.user ? appsmith.store.user.first_name : \"Guest\" }}\n",
-  "textAlign": "LEFT",
+  "text": "Olá {FirstName}",
+  "textAlign": "RIGHT",
   "textColor": "#231F20",
-  "topRow": 1,
+  "topRow": 5,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "z0t4vd8wgc",
-  "widgetName": "FirstNameGreeting"
+  "widgetId": "m0nr37w4jf",
+  "widgetName": "UserIdentity"
 }

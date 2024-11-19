@@ -35,6 +35,8 @@
   "mobileTopRow": 29,
   "needsErrorInfo": false,
   "onClick": "{{showModal(ShowSchool_Modal.name).then(() => {\n  showAlert(\"\", '');\n});}}",
+  "originalBottomRow": 27,
+  "originalTopRow": 23,
   "parentColumnSpace": 20.5625,
   "parentId": "0",
   "parentRowSpace": 10,

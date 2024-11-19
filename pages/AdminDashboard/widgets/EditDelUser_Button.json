@@ -34,6 +34,8 @@
   "mobileTopRow": 37,
   "needsErrorInfo": false,
   "onClick": "{{showModal(DelUser_Modal.name);}}",
+  "originalBottomRow": 41,
+  "originalTopRow": 37,
   "parentColumnSpace": 20.5625,
   "parentId": "0",
   "parentRowSpace": 10,

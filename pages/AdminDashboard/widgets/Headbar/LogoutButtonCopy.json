@@ -38,7 +38,7 @@
   "needsErrorInfo": false,
   "onClick": "// Clear user data (if stored in AppSmith store)\nstoreValue(\"user\", null);\n\n// Redirect to the Login Page\nnavigateTo(\"LoginPage\"); // Replace \"LoginPage\" with the actual name of your login page\n",
   "parentColumnSpace": 20.5625,
-  "parentId": "0",
+  "parentId": "6c2xe5w2qa",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -50,6 +50,6 @@
   "topRow": 0,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "vn16whxu3y",
-  "widgetName": "LogoutButton"
+  "widgetId": "6tjccka5ki",
+  "widgetName": "LogoutButtonCopy"
 }

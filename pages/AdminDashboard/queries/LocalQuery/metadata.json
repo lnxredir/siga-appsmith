@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "",
+      "body": "SELECT \n    u.id, u.full_name, u.username, u.role, \n    string_agg(s.name, ', ') AS school_names\nFROM \n    users u\nLEFT JOIN \n    users_schools us ON u.id = us.user_id\nLEFT JOIN \n    schools s ON us.school_id = s.id\nGROUP BY \n    u.id, u.full_name, u.username, u.role\nORDER BY \n    u.username;\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

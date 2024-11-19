@@ -1,9 +1,11 @@
 export default {
   checkRole: () => {
     const user = appsmith.store.user; // Get user from store
-    if (!user) {
-      // Redirect to login if user is not logged in
-      showAlert("Faça login para acessar essa página.", "error");
+    const selectedSchoolId = appsmith.store.selectedSchoolId; // Get selected school
+
+    if (!user || !selectedSchoolId) {
+      // Redirect to login if user or school is not selected
+      showAlert("Please log in and select a school to access this page.", "error");
       navigateTo("LoginPage");
       return false;
     }
@@ -15,15 +17,15 @@ export default {
       DiretoriaDashboard: "diretoria",
       ProfessorDashboard: "professor",
       ResponsavelDashboard: "responsavel",
-			AssistenteDashboard: "assistente",
     };
 
     const requiredRole = roleToPageMap[currentPage];
     if (user.role !== requiredRole) {
-      showAlert("Você não tem autorizção para acessar essa página.", "error");
+      showAlert("You do not have permission to access this page.", "error");
       navigateTo("LoginPage");
       return false;
     }
+
     return true; // User is authorized
   },
 };

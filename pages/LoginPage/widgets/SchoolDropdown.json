@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 55,
+  "bottomRow": 58,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -57,7 +57,7 @@
   "rightColumn": 40,
   "serverSideFiltering": false,
   "sourceData": "{{ ListSchools_Query.data.map(school => ({\n  label: school.name,\n  value: school.id\n})) }}\n",
-  "topRow": 48,
+  "topRow": 51,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "so4q8ty9r6",

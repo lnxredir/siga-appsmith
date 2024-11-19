@@ -1,0 +1,13 @@
+SELECT 
+    u.id, u.full_name, u.username, u.role, 
+    string_agg(s.name, ', ') AS school_names
+FROM 
+    users u
+LEFT JOIN 
+    users_schools us ON u.id = us.user_id
+LEFT JOIN 
+    schools s ON us.school_id = s.id
+GROUP BY 
+    u.id, u.full_name, u.username, u.role
+ORDER BY 
+    u.username;
